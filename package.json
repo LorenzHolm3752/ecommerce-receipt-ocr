@@ -1,0 +1,9 @@
+{
+  "name": "ecommerce-receipt-ocr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/receipt_sender.test.ts", "start": "tsx src/receipt_sender.ts"},
+  "dependencies": {"zod": "^3.23.8", "tsx": "^4.19.0"},
+  "devDependencies": {"typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
